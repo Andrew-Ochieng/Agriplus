@@ -11,7 +11,7 @@ This website is aimed at helping farmers reach out to more buyers and also helps
 Clone the site and run it on vs code .........(incomplete)
 
 ## GitHub Pages:
-
+https://github.com/AndrewMartial/Agriplus
 
 ## Copyright:
 All rights reserved @ 2022 | Andrew Omondi Ochieng
