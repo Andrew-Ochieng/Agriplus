@@ -205,6 +205,63 @@ nav {
     font-weight: bold;
 }
 
+#read-more {
+
+}
+
+
+
+/* footer */
+.container {
+    background-color: black;
+    color:white
+    /* margin: 4% 8%; */
+
+}
+
+.inner-container {
+    /* padding: 4% 8%; */
+
+}
+
+.input-form button {
+    background-color: #ED661F;
+    padding: 14px 18px;
+    margin: 0 0;
+    font-weight: bolder;
+    border:none;
+    color: white;
+}
+
+.input-form input {
+    margin: 0 0;
+    padding: 14px 18px;
+    border: none;
+}
+
+
+.subscribe {
+    padding: 4% 8%;
+
+
+}
+
+#footer-hr {
+    height: 6px;
+    background-color: white;
+    border: none;
+}
+
+.footer {
+    padding: 4% 8%;
+
+}
+
+
+
+
+
+
 
 
 
