@@ -210,13 +210,17 @@ nav {
     color: #ED661F;
 }
 
-#stars {
+.stars {
     display: flex;
     flex-direction: row;
     gap: 4%;
     align-content: center;
     text-align: center;
     padding-bottom: 8%;
+}
+
+.stars #gray-star {
+    color: gray;
 }
 
 #testimonial-cards {
