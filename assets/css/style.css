@@ -319,8 +319,6 @@ nav {
 
 }
 
-
-
 .flex-footer {
     display: flex;
     flex-direction: row;
@@ -329,6 +327,15 @@ nav {
     /* display: grid; */
     /* grid-template-columns: repeat(4, minmax(0, 1fr)); */
     /* gap: 3.2rem; */
+}
+
+.social-links {
+    padding: 6% 0;
+}
+
+.social-links i {
+    padding: 8px 8px;
+    border-radius: 100%;
 }
 
 .card-title {
