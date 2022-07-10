@@ -177,6 +177,15 @@ nav {
 }
 
 
+#testimonial-border {
+    background-color: rgb(73, 73, 73);
+    height: 4px;
+    border-bottom: 30px;
+    border-style: solid;
+    border-color: rgb(196, 196, 196);
+}
+
+
 
 /* testimonials-section */
 .testimonials {
