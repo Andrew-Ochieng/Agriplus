@@ -1,6 +1,7 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@200;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 /* general*/
 * {
@@ -25,14 +26,15 @@ nav {
 }
 
 .flex-nav h1 {
-    font-weight: 900;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 .nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 4.8rem;
+    gap: 3rem;
     align-items: center;
 }
 
@@ -41,8 +43,13 @@ nav {
     font-size: 18px;
 }
 
-.nav-links li a {font-weight: 900;
+.nav-links #home {
+    padding-bottom: 5px;
+    border-bottom: solid #ED661F 4px;
+}
 
+.nav-links li a {
+    font-weight: 600;
     text-decoration: none;
     color: white;
 }
@@ -50,7 +57,8 @@ nav {
 #nav-btn {
     background-color: #ED661F;
     padding: 14px 18px;
-    font-weight: bolder;
+    font-weight: 900;
+    font-size: 21px;
     border:none;
 } 
 
@@ -259,9 +267,6 @@ nav {
     font-weight: bolder;
     float: right;
     text-decoration: none;
-    /* border-style: solid;
-    border-color: #ED661F;
-    border: 10px 10px 0 10px; */
 }
 
 
@@ -281,17 +286,22 @@ nav {
 }
 
 .input-form #email {
-    margin: 0 0;
-    /* padding: 18px 44px; */
     padding: 1.4% 6%;
     border: none;
 }
 
-.input-form #subscribe-btn {
+.input-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 0 0 0;
+}
+
+.input-form button {
     cursor: pointer;
     background-color: #ED661F;
     padding: 1.4% 3%;
-    margin: 0 0;
     font-weight: bolder;
     border:none;
     color: white;
